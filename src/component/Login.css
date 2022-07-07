@@ -1,0 +1,25 @@
+.login_conatiner {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  height: 50vh;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 5rem;
+}
+.login_conatiner > input {
+  padding: 8px 16px;
+  margin: 0.5rem;
+}
+.login_conatiner > button {
+  padding: 8px 16px;
+  border: none;
+  outline: none;
+  background-color: black;
+  margin: 0.5rem;
+  color: white;
+}
+.login_conatiner > button:hover {
+  background-color: rgb(88, 88, 88);
+}
